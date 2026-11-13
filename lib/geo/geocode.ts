@@ -26,7 +26,7 @@ export async function geocodeAddress(addressStr: string): Promise<GeocodeResult 
   // OpenStreetMap Nominatim fallback
   try {
     const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(addressStr)}&format=json&limit=1`;
-    const res = await fetch(url, { headers: { 'User-Agent': 'IrvineHousingFinder/1.0' } });
+    const res = await fetch(url, { headers: { 'User-Agent': 'LansingHousingFinder/1.0' } });
     const data = await res.json();
     if (Array.isArray(data) && data[0]) {
       return {

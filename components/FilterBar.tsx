@@ -353,8 +353,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 className="bg-transparent font-bold text-stone-800 dark:text-stone-200 focus:outline-hidden cursor-pointer"
               >
                 <option value="15">≤ 15 min</option>
-                <option value="20">≤ 20 min (Aliso North & Town Center)</option>
-                <option value="25">≤ 25 min (All Aliso Viejo 92656)</option>
+                <option value="15">≤ 15 min (East Lansing Core & Campus)</option>
+                <option value="25">≤ 25 min (Okemos, Haslett, Lansing)</option>
                 <option value="30">≤ 30 min</option>
                 <option value="35">≤ 35 min</option>
                 <option value="40">≤ 40 min (Max Radius)</option>
@@ -571,7 +571,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <div className="max-h-[85vh] overflow-y-auto rounded-t-3xl bg-white p-5 text-xs dark:bg-stone-900 space-y-4">
             <div className="flex items-center justify-between border-b border-stone-100 pb-3 dark:border-stone-800">
               <h3 className="font-serif text-base font-bold text-stone-900 dark:text-white">
-                Filter Aliso Viejo & OC Apartments
+                Filter Greater Lansing Apartments
               </h3>
               <button
                 type="button"
@@ -659,7 +659,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <div className="rounded-xl border border-stone-200 bg-stone-50 p-3.5 dark:border-stone-750 dark:bg-stone-800">
               <div className="flex justify-between font-semibold mb-1.5">
                 <label htmlFor="mobile-max-drive" className="text-stone-700 dark:text-stone-300">
-                  Max Commute to 100 Progress:
+                  Max Commute to 241 E Saginaw:
                 </label>
                 <span className="font-mono font-bold text-amber-700 dark:text-amber-400">
                   {filters.maxDriveMinutes || 40} minutes

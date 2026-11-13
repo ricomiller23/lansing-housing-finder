@@ -77,7 +77,7 @@ export const CostRealityModal: React.FC<CostRealityModalProps> = ({
             </span>
           </div>
           <div className="flex justify-between py-1.5 border-b border-stone-100 dark:border-stone-800">
-            <span className="text-stone-600 dark:text-stone-400">Estimated Utilities (Irvine Water/SCE):</span>
+            <span className="text-stone-600 dark:text-stone-400">Estimated Utilities (Lansing BWL / Consumers Energy):</span>
             <span className="font-mono text-stone-800 dark:text-stone-200">+${utilitiesEstimate}</span>
           </div>
           <div className="flex justify-between py-1.5 border-b border-stone-100 dark:border-stone-800">

@@ -1,6 +1,6 @@
 import { Listing } from '../providers/types';
 
-// Irvine / South OC luxury median $/sqft baseline: ~$3.60/sqft
+// Greater Lansing luxury median $/sqft baseline: ~$1.70/sqft
 const LOCAL_MEDIAN_PER_SQFT = 3.6;
 
 export function computeValue(listing: Listing): number {
@@ -17,7 +17,7 @@ export function computeValue(listing: Listing): number {
     else if (ratio <= 1.3) score = 50;
     else score = 35;
   } else {
-    // Score based on absolute rent tiers in Irvine
+    // Score based on absolute rent tiers in Greater Lansing
     if (listing.price < 3500) score = 80;
     else if (listing.price <= 4800) score = 70;
     else if (listing.price <= 6000) score = 55;

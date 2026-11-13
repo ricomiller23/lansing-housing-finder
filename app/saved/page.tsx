@@ -79,7 +79,7 @@ export default function SavedPage() {
               Saved Favorites ({savedListings.length})
             </h1>
             <p className="text-xs text-stone-500">
-              Apartments and homes shortlisted in Aliso Viejo and Orange County
+              Apartments and homes shortlisted in East Lansing and Greater Lansing
             </p>
           </div>
         </div>
@@ -91,14 +91,14 @@ export default function SavedPage() {
               No saved apartments yet
             </h3>
             <p className="mt-1 text-xs text-stone-500">
-              Bookmark apartments on the main Aliso Viejo search page to review them here anytime.
+              Bookmark apartments on the main Lansing search page to review them here anytime.
             </p>
             <div className="mt-6">
               <Link
                 href="/"
                 className="inline-flex min-h-11 items-center rounded-xl bg-teal-800 px-5 py-2.5 text-xs font-bold text-white hover:bg-teal-700"
               >
-                Explore Aliso Viejo Apartments
+                Explore Lansing Area Apartments
               </Link>
             </div>
           </div>

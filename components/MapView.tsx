@@ -86,7 +86,7 @@ export const MapView: React.FC<MapViewProps> = ({
 
       tileLayerRef.current = googleTileLayer;
 
-      // Add Workplace Pin for 100 Progress (Central Office)
+      // Add Workplace Pin for 241 East Saginaw (Central Office)
       const bankIcon = L.divIcon({
         className: 'google-bank-marker-pin',
         html: `
@@ -226,7 +226,7 @@ export const MapView: React.FC<MapViewProps> = ({
     });
   }, [listings, hoveredId, selectedListing, mapLoaded, onHoverListing, onSelectListing]);
 
-  // Draw Google Maps Car Route Polyline from Hovered/Selected Listing to 100 Progress
+  // Draw Google Maps Car Route Polyline from Hovered/Selected Listing to 241 E Saginaw
   useEffect(() => {
     if (!mapInstanceRef.current || !mapLoaded) return;
 
@@ -268,7 +268,7 @@ export const MapView: React.FC<MapViewProps> = ({
     });
   }, [listingSignature, mapLoaded]);
 
-  // Center on Bank (100 Progress)
+  // Center on Central Office (241 E Saginaw)
   const handleRecenter = () => {
     if (mapInstanceRef.current) {
       mapInstanceRef.current.flyTo([WORK_LOCATION.lat, WORK_LOCATION.lng], 11, {
@@ -320,7 +320,7 @@ export const MapView: React.FC<MapViewProps> = ({
           title="Center on Bank Location"
         >
           <LocateFixed className="h-3 w-3 text-amber-600" />
-          <span>100 Progress</span>
+          <span>241 E Saginaw</span>
         </button>
 
         <div className="h-4 w-px bg-stone-200 dark:bg-stone-700" />
@@ -340,7 +340,7 @@ export const MapView: React.FC<MapViewProps> = ({
         <div className="flex items-center space-x-2">
           <span className="text-sm">📍</span>
           <span className="font-bold text-stone-900 dark:text-stone-100">
-            Google Maps · 100 Progress, Irvine
+            Google Maps · 241 East Saginaw, East Lansing
           </span>
         </div>
         <div className="flex items-center space-x-2 text-stone-600 dark:text-stone-300 text-[11px]">

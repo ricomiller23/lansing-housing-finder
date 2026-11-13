@@ -31,12 +31,12 @@ function SearchPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  // Default focus: Apartments in Aliso Viejo, CA (92656) unless overridden via URL params
+  // Default focus: Greater Lansing & East Lansing rentals unless overridden via URL params
   const [filters, setFilters] = useState<SearchFilters>(() => {
     const rawCitiesParam = searchParams.get('cities');
     const rawQueryParam = searchParams.get('q') || searchParams.get('query');
 
-    let initialCities: string[] | undefined = ['Aliso Viejo'];
+    let initialCities: string[] | undefined = undefined;
     if (rawCitiesParam) {
       if (rawCitiesParam.trim().toLowerCase() === 'all') {
         initialCities = undefined;
@@ -48,8 +48,8 @@ function SearchPageContent() {
       }
     } else if (rawQueryParam) {
       const normQ = normalizeCityAlias(rawQueryParam);
-      if (normQ === 'Aliso Viejo') {
-        initialCities = ['Aliso Viejo'];
+      if (normQ === 'East Lansing') {
+        initialCities = ['East Lansing'];
       } else {
         initialCities = undefined;
       }
@@ -71,7 +71,7 @@ function SearchPageContent() {
       sourceTypes: searchParams.get('sourceTypes') ? (searchParams.get('sourceTypes')!.split(',') as any) : undefined,
       sortBy: (searchParams.get('sortBy') as any) || 'overall',
       query:
-        rawQueryParam && normalizeCityAlias(rawQueryParam) !== 'Aliso Viejo'
+        rawQueryParam && normalizeCityAlias(rawQueryParam) !== 'East Lansing'
           ? rawQueryParam
           : undefined,
     };
@@ -183,8 +183,8 @@ function SearchPageContent() {
 
   const activeCityName =
     filters.cities && filters.cities.length === 1 ? normalizeCityAlias(filters.cities[0]) : null;
-  const isAlisoApartmentsFocus =
-    activeCityName === 'Aliso Viejo' &&
+  const isEastLansingFocus =
+    activeCityName === 'East Lansing' &&
     filters.propertyTypes?.length === 1 &&
     filters.propertyTypes[0] === 'apartment';
 
@@ -218,7 +218,7 @@ function SearchPageContent() {
       Community: item.communityName || item.address.line1,
       Operator: item.operator || 'Private Landlord',
       PropertyType: item.propertyType,
-      Address: `${item.address.line1}, ${item.address.city}, CA ${item.address.zip}`,
+      Address: `${item.address.line1}, ${item.address.city}, ${item.address.state || 'MI'} ${item.address.zip}`,
       Price: item.price,
       Beds: item.beds,
       Baths: item.baths,
@@ -241,7 +241,7 @@ function SearchPageContent() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.setAttribute('href', url);
-    const slug = activeCityName ? activeCityName.replace(/\s+/g, '_') : 'OC_Regional';
+    const slug = activeCityName ? activeCityName.replace(/\s+/g, '_') : 'Lansing_Regional';
     link.setAttribute('download', `${slug}_Apartments_${new Date().toISOString().split('T')[0]}.csv`);
     document.body.appendChild(link);
     link.click();
@@ -282,13 +282,13 @@ function SearchPageContent() {
                 </span>
               </div>
               <h1 className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-stone-900 dark:text-white mt-1">
-                {activeCityName === 'Aliso Viejo'
+                {activeCityName === 'East Lansing'
                   ? filters.propertyTypes?.length === 1 && filters.propertyTypes[0] === 'apartment'
-                    ? 'Apartments in Aliso Viejo, California (92656)'
-                    : 'Rentals in Aliso Viejo, California (92656)'
+                    ? 'Apartments in East Lansing, Michigan (48824 / 48823)'
+                    : 'Rentals in East Lansing, Michigan (48824 / 48823)'
                   : activeCityName
-                  ? `Rentals in ${activeCityName}, California`
-                  : 'Orange County Regional Rental Finder'}
+                  ? `Rentals in ${activeCityName}, Michigan`
+                  : 'Greater Lansing Regional Housing Finder'}
               </h1>
               <p className="text-[11px] sm:text-xs text-stone-500 mt-1">
                 {runtimeStats ? (
@@ -301,7 +301,7 @@ function SearchPageContent() {
                     {runtimeStats.minAm !== null && runtimeStats.maxAm !== null && (
                       <>
                         {' '}
-                        · Morning drive <strong>{runtimeStats.minAm}–{runtimeStats.maxAm} min</strong> via SR-133 / SR-73 / I-5 to 100 Progress
+                        · Morning drive <strong>{runtimeStats.minAm}–{runtimeStats.maxAm} min</strong> via M-43 / E Saginaw to 241 East Saginaw
                       </>
                     )}
                   </>
@@ -312,13 +312,13 @@ function SearchPageContent() {
             </div>
 
             <div className="flex flex-wrap items-center gap-2 self-start md:self-center shrink-0">
-              {!isAlisoApartmentsFocus ? (
+              {!isEastLansingFocus ? (
                 <button
                   type="button"
                   onClick={() =>
                     setFilters({
                       ...filters,
-                      cities: ['Aliso Viejo'],
+                      cities: ['East Lansing'],
                       propertyTypes: ['apartment'],
                       query: undefined,
                     })
@@ -326,7 +326,7 @@ function SearchPageContent() {
                   className="min-h-11 sm:min-h-9 inline-flex items-center space-x-1.5 rounded-xl bg-teal-800 px-3.5 py-1.5 text-xs font-bold text-white hover:bg-teal-700 shadow-xs transition"
                 >
                   <Building className="h-3.5 w-3.5" />
-                  <span>Focus Aliso Viejo Apartments</span>
+                  <span>Focus East Lansing Apartments</span>
                 </button>
               ) : (
                 <button
@@ -377,7 +377,7 @@ function SearchPageContent() {
               No matching apartments with your current criteria
             </h3>
             <p className="mt-1 text-xs text-stone-500 max-w-md mx-auto">
-              Try relaxing the rent ceiling, parking filter, or resetting to Aliso Viejo Apartments.
+              Try relaxing the rent ceiling, parking filter, or resetting to all Lansing submarkets.
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-2">
               <button
@@ -389,7 +389,7 @@ function SearchPageContent() {
                     maxDriveMinutes: 40,
                     twoDogsMode: 'lenient',
                     coveredParkingMode: 'lenient',
-                    cities: ['Aliso Viejo'],
+                    cities: undefined,
                     propertyTypes: ['apartment'],
                     sourceTypes: undefined,
                     query: undefined,
@@ -397,7 +397,7 @@ function SearchPageContent() {
                 }
                 className="min-h-11 rounded-xl bg-teal-800 px-4 py-2 text-xs font-bold text-white hover:bg-teal-700 shadow-sm"
               >
-                Reset to Aliso Viejo Apartments
+                Reset All Filters
               </button>
             </div>
           </div>
@@ -454,16 +454,16 @@ function SearchPageContent() {
           />
         )}
 
-        {/* Section: Aliso Viejo & Regional Operator Portals */}
+        {/* Section: Greater Lansing & Regional Operator Portals */}
         <section className="mt-12 border-t border-stone-200 pt-8 dark:border-stone-800">
           <div className="flex items-center space-x-2 text-teal-800 dark:text-teal-400">
             <Building className="h-5 w-5" />
             <h2 className="font-serif text-lg sm:text-xl font-bold tracking-tight text-stone-900 dark:text-white">
-              Official Aliso Viejo (92656) & South OC Leasing Portals
+              Official Greater Lansing & East Lansing Leasing Portals
             </h2>
           </div>
           <p className="text-xs text-stone-500 mt-1">
-            Direct operator portals for Aliso Viejo apartment communities and surrounding Orange County submarkets:
+            Direct operator portals for East Lansing, Okemos, Haslett, and Lansing apartment communities:
           </p>
 
           <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -558,7 +558,7 @@ function SearchPageContent() {
 
 export default function Home() {
   return (
-    <Suspense fallback={<div className="p-8 text-center text-xs text-stone-500">Loading Aliso Viejo Apartment Intelligence...</div>}>
+    <Suspense fallback={<div className="p-8 text-center text-xs text-stone-500">Loading Lansing Housing Finder...</div>}>
       <SearchPageContent />
     </Suspense>
   );

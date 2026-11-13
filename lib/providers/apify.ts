@@ -19,7 +19,7 @@ export class ApifyProvider implements ListingProvider {
 
     try {
       const token = process.env.APIFY_TOKEN;
-      const targetCity = params.city && params.city !== 'all' ? `${params.city}, CA` : 'Aliso Viejo, CA 92656';
+      const targetCity = params.city && params.city !== 'all' ? `${params.city}, MI` : 'East Lansing, MI 48824';
       const res = await fetch(
         `https://api.apify.com/v2/acts/apify~zillow-scraper/run-sync-get-dataset-items?token=${token}`,
         {
@@ -48,9 +48,9 @@ export class ApifyProvider implements ListingProvider {
           const desc = String(raw.description || raw.statusText || '');
           const extraction = extractFromText(desc);
           const sourceUrl = String(raw.detailUrl || raw.url);
-          const city = String(raw.addressCity || params.city || 'Aliso Viejo');
+          const city = String(raw.addressCity || params.city || 'East Lansing');
           const line1 = String(raw.addressStreet || raw.address || 'Not yet sourced');
-          const zip = String(raw.addressZipcode || '92656');
+          const zip = String(raw.addressZipcode || '48824');
           const rawHomeType = String(raw.hdpData?.homeInfo?.homeType || '').toLowerCase();
           const propertyType: PropertyType = rawHomeType.includes('single')
             ? 'single_family'
@@ -69,7 +69,7 @@ export class ApifyProvider implements ListingProvider {
             address: {
               line1,
               city,
-              state: 'CA',
+              state: 'MI',
               zip,
               lat: Number(raw.latLong?.latitude || params.lat),
               lng: Number(raw.latLong?.longitude || params.lng),

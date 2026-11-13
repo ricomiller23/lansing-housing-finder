@@ -119,10 +119,10 @@ export const ListingCard: React.FC<ListingCardProps> = ({
             if (onOpenRoute) onOpenRoute(listing);
           }}
           className="absolute bottom-2.5 left-2.5 z-10 flex min-h-9 items-center space-x-1.5 rounded-full bg-stone-900/85 px-2.5 py-1 text-[11px] font-semibold text-white backdrop-blur-md shadow-sm hover:bg-stone-950 transition"
-          title="Click to view Google Maps Car Route to 100 Progress"
+          title="Click to view Google Maps Car Route to 241 E Saginaw"
         >
           <Navigation className="h-3.5 w-3.5 text-teal-300" />
-          <span>{morningMin} min to 100 Progress</span>
+          <span>{morningMin} min to 241 E Saginaw</span>
         </button>
 
         {/* Direct "More Photos" Badge Pill on Photo Hero (visible above the fold) */}

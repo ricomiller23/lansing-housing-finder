@@ -3,7 +3,7 @@ import './globals.css';
 import { Providers } from '@/components/Providers';
 
 export const metadata: Metadata = {
-  title: 'Aliso Viejo Apartment & OC Commute Finder — 92656 Rental Intelligence',
+  title: 'Lansing Housing Finder — East Lansing & Greater Lansing Commute to 241 E Saginaw',
   description:
     'Search apartments in Greater Lansing and East Lansing, MI with traffic-aware drive times to 241 East Saginaw, East Lansing, pet policies, and garage parking details.',
 };

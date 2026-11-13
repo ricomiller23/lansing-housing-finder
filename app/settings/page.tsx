@@ -38,7 +38,7 @@ export default function SettingsPage() {
               Baseline Home & Commute Benchmark
             </h1>
             <p className="text-xs text-stone-500">
-              Configured against your current residence at The Lincoln Scottsdale to prevent any downgrade
+              Configured against baseline preferences to maintain housing standards
             </p>
           </div>
         </div>
@@ -134,18 +134,18 @@ export default function SettingsPage() {
             <div className="flex items-center space-x-2 text-teal-800 dark:text-teal-400 mb-4">
               <Building2 className="h-5 w-5" />
               <h2 className="font-serif text-base font-bold text-stone-900 dark:text-white">
-                Destination Office (Irvine, CA)
+                Central Office Destination (East Lansing, MI)
               </h2>
             </div>
             <div className="text-xs space-y-2 text-stone-600 dark:text-stone-300">
               <p>
-                <strong>Employer:</strong> Beach Cities Commercial Bank
+                <strong>Destination:</strong> Central Office
               </p>
               <p>
-                <strong>Address:</strong> 100 Progress, Suite 150, Irvine, CA 92618 (Innovation Office Park, Irvine Spectrum)
+                <strong>Address:</strong> 241 East Saginaw, East Lansing, MI 48824
               </p>
               <p>
-                <strong>Coordinates:</strong> 33.6770° N, 117.7602° W
+                <strong>Coordinates:</strong> 42.7469° N, 84.4819° W
               </p>
               <p>
                 <strong>Commute Timing:</strong> Traffic-aware optimal drive modeling at 7:45 AM (Morning arrival) & 5:30 PM (Evening departure).

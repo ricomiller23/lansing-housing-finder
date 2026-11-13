@@ -70,7 +70,7 @@ export default function ListingDetailPage({
 
   const fullAddr = `${listing.address.line1}, ${listing.address.city}, CA ${listing.address.zip}`;
   const googleMapsUrl = listing.commute?.googleMapsUrl || getGoogleMapsRouteUrl(fullAddr, listing.address.lat, listing.address.lng);
-  const corridor = listing.commute?.primaryCorridor || 'Alton Pkwy / Irvine Spectrum';
+  const corridor = listing.commute?.primaryCorridor || 'M-43 / E Saginaw Hwy';
 
   return (
     <div className="min-h-screen bg-[#faf8f5] text-stone-800 antialiased dark:bg-stone-950 dark:text-stone-100 pb-16">
@@ -268,7 +268,7 @@ export default function ListingDetailPage({
 
           {/* Right Column: Commute & Nearby Amenities */}
           <div className="md:col-span-5 space-y-6">
-            {/* Real Traffic Commute to 100 Progress */}
+            {/* Real Traffic Commute to 241 East Saginaw */}
             <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-xs dark:border-stone-800 dark:bg-stone-900">
               <div className="flex items-center justify-between mb-2">
                 <div className="flex items-center space-x-2 text-teal-800 dark:text-teal-400">
@@ -327,7 +327,7 @@ export default function ListingDetailPage({
               </a>
             </div>
 
-            {/* Nearby Irvine Essentials */}
+            {/* Nearby Greater Lansing Essentials */}
             <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-xs dark:border-stone-800 dark:bg-stone-900">
               <h3 className="font-serif text-base font-bold text-stone-900 dark:text-white mb-3">
                 Nearby Essentials & Groceries
@@ -346,7 +346,7 @@ export default function ListingDetailPage({
                   <span className="font-mono text-stone-400">Under 15 min</span>
                 </li>
                 <li className="flex items-center justify-between">
-                  <span>🏦 Beach Cities Commercial Bank</span>
+                  <span>🏢 Central Office (241 E Saginaw)</span>
                   <span className="font-mono text-teal-800 font-bold dark:text-teal-400">{listing.commute?.morning.minutes} min drive</span>
                 </li>
               </ul>

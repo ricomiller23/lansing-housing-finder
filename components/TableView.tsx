@@ -108,7 +108,7 @@ export const TableView: React.FC<TableViewProps> = ({
                     <span>{item.commute?.morning.minutes}m AM / {item.commute?.evening.minutes}m PM</span>
                   </div>
                   <span className="text-[10px] text-stone-400">
-                    {item.commute?.morning.miles} mi to 100 Progress
+                    {item.commute?.morning.miles} mi to 241 E Saginaw
                   </span>
                 </td>
                 <td className="px-3 py-3 whitespace-nowrap">

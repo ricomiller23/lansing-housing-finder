@@ -29,7 +29,7 @@ export const RouteModal: React.FC<RouteModalProps> = ({ listing, onClose }) => {
   const morningMin = listing.commute?.morning.minutes || 12;
   const eveningMin = listing.commute?.evening.minutes || 15;
   const miles = listing.commute?.morning.miles || 5.0;
-  const corridor = listing.commute?.primaryCorridor || 'Alton Pkwy / Irvine Center Dr';
+  const corridor = listing.commute?.primaryCorridor || 'M-43 / E Saginaw Hwy';
 
   const fullOriginAddress = `${listing.address.line1}, ${listing.address.city}, CA ${listing.address.zip}`;
   const googleMapsUrl = listing.commute?.googleMapsUrl || getGoogleMapsRouteUrl(fullOriginAddress, listing.address.lat, listing.address.lng);
@@ -52,7 +52,7 @@ export const RouteModal: React.FC<RouteModalProps> = ({ listing, onClose }) => {
                   Google Maps Driving Route
                 </h3>
                 <p className="text-xs text-teal-200/90">
-                  Car route to Beach Cities Commercial Bank (100 Progress)
+                  Car route to Central Office (241 East Saginaw)
                 </p>
               </div>
             </div>
@@ -169,10 +169,10 @@ export const RouteModal: React.FC<RouteModalProps> = ({ listing, onClose }) => {
             </div>
             <ul className="list-disc list-inside space-y-1 text-stone-600 dark:text-stone-400 text-[11px]">
               <li>
-                <strong>Morning flow:</strong> Arriving at Innovation Office Park via Alton Pkwy or Irvine Center Dr avoids I-5 / I-405 freeway interchange bottlenecks.
+                <strong>Morning flow:</strong> Arriving at 241 East Saginaw via M-43 (Saginaw Hwy) or US-127 provides smooth traffic access avoiding campus game-day bottlenecks.
               </li>
               <li>
-                <strong>Parking at 100 Progress:</strong> Surface parking with EV chargers directly adjacent to Suite 150 entrance.
+                <strong>Parking at 241 East Saginaw:</strong> On-site designated parking and covered options.
               </li>
               <li>
                 <strong>Strict 40-min radius:</strong> Within regional 40-minute driving ceiling from beach cities and master plans.

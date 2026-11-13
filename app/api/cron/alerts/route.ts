@@ -29,10 +29,10 @@ export async function GET(request: NextRequest) {
       if (matches.length > 0) {
         try {
           await resend.emails.send({
-            from: 'Irvine Housing Finder <alerts@theADUstore.com>',
+            from: 'Lansing Housing Finder <alerts@theADUstore.com>',
             to: alert.email,
-            subject: `[Irvine Housing] ${matches.length} New Matches Found Near Deb's Office`,
-            html: `<h3>New Matches Found Near 100 Progress, Irvine</h3>
+            subject: `[Lansing Housing] ${matches.length} New Matches Found Near Central Office`,
+            html: `<h3>New Matches Found Near 241 East Saginaw, East Lansing</h3>
                    <ul>${matches.map((m) => `<li><strong>${m.communityName || m.address.line1}</strong> - $${m.price}/mo (${m.beds}bd/${m.baths}ba, ${m.commute?.morning.minutes} min commute)</li>`).join('')}</ul>`,
           });
           emailsSent++;
