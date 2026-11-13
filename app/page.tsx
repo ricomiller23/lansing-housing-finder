@@ -491,7 +491,31 @@ function SearchPageContent() {
                     </p>
                   )}
                 </div>
-                <div className="mt-4">
+                <div className="mt-4 flex flex-col gap-2">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const isSelected = filters.operators?.includes(operator.filterKey);
+                      if (isSelected) {
+                        setFilters({ ...filters, operators: undefined });
+                      } else {
+                        setFilters({ ...filters, operators: [operator.filterKey] });
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }
+                    }}
+                    className={`min-h-11 inline-flex w-full items-center justify-center space-x-1.5 rounded-xl text-xs font-bold transition ${
+                      filters.operators?.includes(operator.filterKey)
+                        ? 'bg-teal-800 text-white shadow-xs hover:bg-teal-700'
+                        : 'bg-teal-50 text-teal-800 hover:bg-teal-100 dark:bg-teal-950/60 dark:text-teal-300 dark:hover:bg-teal-900/60 border border-teal-200 dark:border-teal-800'
+                    }`}
+                  >
+                    <Building className="h-3.5 w-3.5" />
+                    <span>
+                      {filters.operators?.includes(operator.filterKey)
+                        ? '✓ Showing Operator Properties'
+                        : 'Filter to This Operator'}
+                    </span>
+                  </button>
                   <a
                     href={operator.officialUrl}
                     target="_blank"

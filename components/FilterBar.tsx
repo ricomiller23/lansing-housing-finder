@@ -12,6 +12,7 @@ import {
   X,
   MapPin,
   Building,
+  Building2,
   Navigation,
   Search,
   Home,
@@ -61,6 +62,22 @@ const SOURCE_TYPES: { id: SourceType | 'all'; label: string }[] = [
   { id: 'private_landlord', label: 'Private Landlords (Condos/Townhomes/SFRs)' },
   { id: 'mls_broker', label: 'MLS Brokerages (Greater Lansing Association of REALTORS)' },
   { id: 'boutique_pm', label: 'Executive Rentals (Berkshire Hathaway)' },
+];
+
+export const LANSING_OPERATORS = [
+  { id: 'all', label: 'All Operators / Portals' },
+  { id: 'DTN Management', label: 'DTN Management (15 props)' },
+  { id: 'Gillespie Group', label: 'Gillespie Group (5 props)' },
+  { id: 'Eyde Development', label: 'Eyde Development (4 props)' },
+  { id: 'Continental Properties', label: 'Continental Properties (4 props)' },
+  { id: 'Monarch Investment', label: 'Monarch Investment (5 props)' },
+  { id: 'Prime Housing Group', label: 'Prime Housing Group (5 props)' },
+  { id: 'Chandler', label: 'Chandler Crossings (4 props)' },
+  { id: 'Friedman Communities', label: 'Friedman Communities (3 props)' },
+  { id: 'Village Green', label: 'Village Green (2 props)' },
+  { id: 'Peak Campus', label: 'Peak Campus (2 props)' },
+  { id: 'Edward Rose & Sons', label: 'Edward Rose & Sons (2 props)' },
+  { id: 'Core Spaces', label: 'Core Spaces (The Hub) (1 prop)' },
 ];
 
 export const FilterBar: React.FC<FilterBarProps> = ({
@@ -145,6 +162,17 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       update({ sourceTypes: undefined });
     } else {
       update({ sourceTypes: [srcId] });
+    }
+  };
+
+  const selectedOperator =
+    filters.operators && filters.operators.length > 0 ? filters.operators[0] : 'all';
+
+  const setOperator = (opId: string) => {
+    if (opId === 'all') {
+      update({ operators: undefined });
+    } else {
+      update({ operators: [opId] });
     }
   };
 
@@ -361,6 +389,27 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 <option value="30">≤ 30 min</option>
                 <option value="35">≤ 35 min</option>
                 <option value="40">≤ 40 min (Max Radius)</option>
+              </select>
+            </div>
+
+            {/* Operator Portal Filter */}
+            <div className="flex items-center space-x-1.5 rounded-lg border border-stone-200 bg-stone-50/80 px-2.5 py-1.5 dark:border-stone-800 dark:bg-stone-800/80">
+              <Building2 className="h-3 w-3 text-teal-700" />
+              <label htmlFor="desktop-operator" className="font-medium text-stone-500">
+                Operator:
+              </label>
+              <select
+                id="desktop-operator"
+                name="operators"
+                value={selectedOperator}
+                onChange={(e) => setOperator(e.target.value)}
+                className="bg-transparent font-bold text-stone-800 dark:text-stone-200 focus:outline-hidden cursor-pointer"
+              >
+                {LANSING_OPERATORS.map((op) => (
+                  <option key={op.id} value={op.id}>
+                    {op.label}
+                  </option>
+                ))}
               </select>
             </div>
 
