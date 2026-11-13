@@ -27,6 +27,7 @@ interface ListingCardProps {
   onOpenOutreach: (listing: Listing) => void;
   onOpenCostReality: (listing: Listing) => void;
   onOpenRoute?: (listing: Listing) => void;
+  onOpenPhotos?: (listing: Listing, index?: number) => void;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
   isHovered?: boolean;
@@ -44,6 +45,7 @@ export const ListingCard: React.FC<ListingCardProps> = ({
   onOpenOutreach,
   onOpenCostReality,
   onOpenRoute,
+  onOpenPhotos,
   onMouseEnter,
   onMouseLeave,
   isHovered,
@@ -80,11 +82,17 @@ export const ListingCard: React.FC<ListingCardProps> = ({
     >
       {/* Photo carousel & direct gallery link container */}
       <div className="relative aspect-16/10 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
-        <a
-          href={galleryUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block h-full w-full focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-teal-600"
+        <button
+          type="button"
+          onClick={() => {
+            if (onOpenPhotos) {
+              onOpenPhotos(listing, photoIndex);
+            } else {
+              window.open(galleryUrl, "_blank", "noopener,noreferrer");
+            }
+          }}
+          className="block h-full w-full text-left cursor-pointer focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-teal-600"
+          title={`Click to view high-resolution photo gallery for ${propertyLabel}`}
         >
           <img
             src={listing.photos[photoIndex] || FALLBACK_PHOTO}
@@ -96,8 +104,8 @@ export const ListingCard: React.FC<ListingCardProps> = ({
             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-102"
             loading="lazy"
           />
-          <span className="sr-only">Open photo gallery for {propertyLabel} on property website</span>
-        </a>
+          <span className="sr-only">Open photo gallery for {propertyLabel}</span>
+        </button>
 
         {/* Benchmark Match Badge */}
         {listing.scores && (
@@ -125,20 +133,38 @@ export const ListingCard: React.FC<ListingCardProps> = ({
           <span>{morningMin} min to 241 E Saginaw</span>
         </button>
 
-        {/* Direct "More Photos" Badge Pill on Photo Hero (visible above the fold) */}
-        <a
-          href={galleryUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="absolute bottom-2.5 right-2.5 z-10 inline-flex min-h-9 items-center space-x-1 rounded-full bg-teal-800/95 px-2.5 py-1 text-[11px] font-bold text-white shadow-sm backdrop-blur-md hover:bg-teal-700 transition"
-        >
-          <Images className="h-3.5 w-3.5 text-teal-200 shrink-0" />
-          <span>
-            More Photos ({photoIndex + 1}/{Math.max(1, listing.photos.length)})
-          </span>
-          <span className="sr-only"> on {propertyLabel} website</span>
-          <ExternalLink className="h-3 w-3 text-teal-200 shrink-0" />
-        </a>
+        {/* Direct "More Photos" Badge Pill on Photo Hero */}
+        <div className="absolute bottom-2.5 right-2.5 z-10 inline-flex items-center space-x-1">
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              if (onOpenPhotos) {
+                onOpenPhotos(listing, photoIndex);
+              } else {
+                window.open(galleryUrl, "_blank", "noopener,noreferrer");
+              }
+            }}
+            className="inline-flex min-h-9 items-center space-x-1 rounded-l-full bg-teal-800/95 px-2.5 py-1 text-[11px] font-bold text-white shadow-sm backdrop-blur-md hover:bg-teal-700 transition"
+            title="Open photo gallery"
+          >
+            <Images className="h-3.5 w-3.5 text-teal-200 shrink-0" />
+            <span>
+              Photos ({photoIndex + 1}/{Math.max(1, listing.photos.length)})
+            </span>
+          </button>
+          <a
+            href={galleryUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="inline-flex min-h-9 items-center justify-center rounded-r-full bg-teal-900/95 px-2 py-1 text-[11px] font-bold text-teal-200 shadow-sm backdrop-blur-md hover:bg-teal-950 transition"
+            title="Open official property website"
+          >
+            <ExternalLink className="h-3.5 w-3.5 shrink-0" />
+            <span className="sr-only">Open official property website for {propertyLabel}</span>
+          </a>
+        </div>
 
         {/* Favorite & Compare Action Buttons */}
         <div className="absolute top-3 right-3 flex items-center space-x-1.5 z-10">

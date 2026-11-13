@@ -10,6 +10,7 @@ import { CompareDrawer } from '@/components/CompareDrawer';
 import { OutreachHelperModal } from '@/components/OutreachHelperModal';
 import { CostRealityModal } from '@/components/CostRealityModal';
 import { RouteModal } from '@/components/RouteModal';
+import { PhotoGalleryModal } from '@/components/PhotoGalleryModal';
 import { Bookmark, ArrowLeft } from 'lucide-react';
 
 export default function SavedPage() {
@@ -19,6 +20,8 @@ export default function SavedPage() {
   const [activeOutreach, setActiveOutreach] = useState<Listing | null>(null);
   const [activeCost, setActiveCost] = useState<Listing | null>(null);
   const [activeRoute, setActiveRoute] = useState<Listing | null>(null);
+  const [activePhotoListing, setActivePhotoListing] = useState<Listing | null>(null);
+  const [activePhotoIndex, setActivePhotoIndex] = useState(0);
 
   useEffect(() => {
     try {
@@ -115,6 +118,7 @@ export default function SavedPage() {
                 onOpenOutreach={setActiveOutreach}
                 onOpenCostReality={setActiveCost}
                 onOpenRoute={setActiveRoute}
+                onOpenPhotos={(listing, idx) => { setActivePhotoListing(listing); setActivePhotoIndex(idx || 0); }}
               />
             ))}
           </div>
@@ -132,6 +136,7 @@ export default function SavedPage() {
       <RouteModal listing={activeRoute} onClose={() => setActiveRoute(null)} />
       <OutreachHelperModal listing={activeOutreach} onClose={() => setActiveOutreach(null)} />
       <CostRealityModal listing={activeCost} onClose={() => setActiveCost(null)} />
+      <PhotoGalleryModal listing={activePhotoListing} initialIndex={activePhotoIndex} isOpen={!!activePhotoListing} onClose={() => setActivePhotoListing(null)} />
     </div>
   );
 }

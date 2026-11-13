@@ -15,6 +15,7 @@ import { CompareDrawer } from '@/components/CompareDrawer';
 import { OutreachHelperModal } from '@/components/OutreachHelperModal';
 import { CostRealityModal } from '@/components/CostRealityModal';
 import { RouteModal } from '@/components/RouteModal';
+import { PhotoGalleryModal } from '@/components/PhotoGalleryModal';
 import { UPSCALE_COMMUNITIES } from '@/lib/providers/communities';
 import { WORK_LOCATION } from '@/lib/commute/routes';
 import {
@@ -87,6 +88,8 @@ function SearchPageContent() {
   const [activeOutreachListing, setActiveOutreachListing] = useState<Listing | null>(null);
   const [activeCostListing, setActiveCostListing] = useState<Listing | null>(null);
   const [activeRouteListing, setActiveRouteListing] = useState<Listing | null>(null);
+  const [activePhotoListing, setActivePhotoListing] = useState<Listing | null>(null);
+  const [activePhotoIndex, setActivePhotoIndex] = useState(0);
 
   // Sync saved list from localStorage
   useEffect(() => {
@@ -420,6 +423,7 @@ function SearchPageContent() {
                   onOpenOutreach={setActiveOutreachListing}
                   onOpenCostReality={setActiveCostListing}
                   onOpenRoute={setActiveRouteListing}
+                  onOpenPhotos={(listing, idx) => { setActivePhotoListing(listing); setActivePhotoIndex(idx || 0); }}
                   onMouseEnter={() => setHoveredId(listing.id)}
                   onMouseLeave={() => setHoveredId(null)}
                   isHovered={hoveredId === listing.id}
@@ -451,6 +455,7 @@ function SearchPageContent() {
             onToggleCompare={toggleCompare}
             onOpenOutreach={setActiveOutreachListing}
             onOpenRoute={setActiveRouteListing}
+            onOpenPhotos={(listing, idx) => { setActivePhotoListing(listing); setActivePhotoIndex(idx || 0); }}
           />
         )}
 
@@ -575,6 +580,13 @@ function SearchPageContent() {
       <CostRealityModal
         listing={activeCostListing}
         onClose={() => setActiveCostListing(null)}
+      />
+
+      <PhotoGalleryModal
+        listing={activePhotoListing}
+        initialIndex={activePhotoIndex}
+        isOpen={!!activePhotoListing}
+        onClose={() => setActivePhotoListing(null)}
       />
     </div>
   );

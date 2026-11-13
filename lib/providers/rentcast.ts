@@ -52,8 +52,9 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/the-abbot",
     "galleryUrl": "https://www.dtnmgt.com/properties/the-abbot#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://www.liveabbot.com/wp-content/uploads/2026/10/DD5A4530_1600x800.jpg",
+      "https://www.liveabbot.com/wp-content/uploads/2026/10/rooftop_lounge_1774x887.jpg",
+      "https://www.liveabbot.com/wp-content/uploads/2026/09/thumb-13.jpg"
     ],
     "desc": "Prime downtown East Lansing luxury directly on Abbot Rd. Features 2 reserved covered parking stalls in heated garage, pet friendly welcoming up to 2 small dogs, in-unit washer and dryer, central A/C, and 24/7 fitness club.",
     "commute": {
@@ -90,8 +91,9 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/the-abbot",
     "galleryUrl": "https://www.dtnmgt.com/properties/the-abbot#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+      "https://www.liveabbot.com/wp-content/uploads/2026/10/DD5A4530_1600x800.jpg",
+      "https://www.liveabbot.com/wp-content/uploads/2026/10/rooftop_lounge_1774x887.jpg",
+      "https://www.liveabbot.com/wp-content/uploads/2026/09/thumb-13.jpg"
     ],
     "desc": "Spacious executive corner flat with floor-to-ceiling windows. Includes heated garage parking for 2 cars, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, quartz counters, and private balcony.",
     "commute": {
@@ -128,8 +130,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/newman-lofts",
     "galleryUrl": "https://www.dtnmgt.com/properties/newman-lofts#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423380/trowbridgelofts_bedroom_2015_011.jpg"
     ],
     "desc": "Active adult boutique building in downtown East Lansing. Features 2 reserved covered parking stalls in indoor structure, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and direct elevator access.",
     "commute": {
@@ -166,8 +168,9 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://huboncampus.com/east-lansing/",
     "galleryUrl": "https://huboncampus.com/east-lansing/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+      "https://huboncampus.com/east-lansing/wp-content/uploads/2024/09/hub-east-lansing-hero_0004_image-1.jpg",
+      "https://huboncampus.com/east-lansing/wp-content/uploads/2024/09/hub-east-lansing-hero_0003_image-2.jpg",
+      "https://huboncampus.com/east-lansing/wp-content/uploads/2024/09/hub-east-lansing-hero_0002_image-3.jpg"
     ],
     "desc": "Luxury mid-rise directly on Grand River Ave. Includes 2 covered parking spaces in secured parking garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, rooftop pool and sundeck.",
     "commute": {
@@ -204,8 +207,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://chandlercrossings.com/the-landings/",
     "galleryUrl": "https://chandlercrossings.com/the-landings/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80"
+      "https://static1.squarespace.com/static/607de9ccd894b82bb2409fa6/t/607de9d1d894b82bb240a087/1740069139768/FooterBackground.jpg?format=1200w",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg"
     ],
     "desc": "Multi-level townhome living with attached 2-car garage. Welcomes up to 2 dogs with private dog park, in-unit washer and dryer, central air conditioning, private patio, and 24-hour clubhouse.",
     "commute": {
@@ -242,8 +245,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://chandlercrossings.com/the-landings/",
     "galleryUrl": "https://chandlercrossings.com/the-landings/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      "https://static1.squarespace.com/static/607de9ccd894b82bb2409fa6/t/607de9d1d894b82bb240a087/1740069139768/FooterBackground.jpg?format=1200w",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg"
     ],
     "desc": "Modern open townhome with attached 2-car garage. Pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, and full community fitness amenities.",
     "commute": {
@@ -280,8 +283,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://chandlercrossings.com/the-club/",
     "galleryUrl": "https://chandlercrossings.com/the-club/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://static1.squarespace.com/static/607de9ccd894b82bb2409fa6/t/607de9d1d894b82bb240a087/1740069139768/FooterBackground.jpg?format=1200w",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg"
     ],
     "desc": "Peaceful north East Lansing setting. Offers 2 covered carport spaces, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and indoor basketball court.",
     "commute": {
@@ -318,8 +321,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://chandlercrossings.com/the-village/",
     "galleryUrl": "https://chandlercrossings.com/the-village/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+      "https://static1.squarespace.com/static/607de9ccd894b82bb2409fa6/t/607de9d1d894b82bb240a087/1740069139768/FooterBackground.jpg?format=1200w",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg"
     ],
     "desc": "Renovated apartment home with 2 covered carport spaces. Pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, and on-site dog park.",
     "commute": {
@@ -356,8 +359,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.castlepointeapts.com/",
     "galleryUrl": "https://www.castlepointeapts.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/x_0,y_0,w_2560,h_1707,c_crop/q_auto,f_auto,c_lfill,w_1200,ar_1.3333333333333333,g_auto/s3/2/58213/cami_homepage_hero_aerial_august2026%20(1).jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423349/3_423349_2019699.jpg"
     ],
     "desc": "Tucked into wooded landscape off Lake Lansing Rd. Includes 2 covered carport spaces, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and heated indoor swimming pool.",
     "commute": {
@@ -394,8 +397,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.castlepointeapts.com/",
     "galleryUrl": "https://www.castlepointeapts.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/x_0,y_0,w_2560,h_1707,c_crop/q_auto,f_auto,c_lfill,w_1200,ar_1.3333333333333333,g_auto/s3/2/58213/cami_homepage_hero_aerial_august2026%20(1).jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423349/3_423349_2019699.jpg"
     ],
     "desc": "Bright 1-bedroom home with private balcony. Features 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and clubhouse.",
     "commute": {
@@ -432,8 +435,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/hidden-tree",
     "galleryUrl": "https://www.dtnmgt.com/properties/hidden-tree#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/x_0,y_0,w_2560,h_1707,c_crop/q_auto,f_auto,c_lfill,w_1200,ar_1.3333333333333333,g_auto/s3/2/58213/hemi_exteriorphoto_heroarea_august2026%20(1).jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg"
     ],
     "desc": "Quiet East Lansing residential setting near Abbott and Lake Lansing. Includes 2 covered carport spaces, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and patio.",
     "commute": {
@@ -470,8 +473,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/hidden-tree",
     "galleryUrl": "https://www.dtnmgt.com/properties/hidden-tree#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/x_0,y_0,w_2560,h_1707,c_crop/q_auto,f_auto,c_lfill,w_1200,ar_1.3333333333333333,g_auto/s3/2/58213/hemi_exteriorphoto_heroarea_august2026%20(1).jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg"
     ],
     "desc": "Renovated 1-bedroom flat with tranquil wooded views. Includes 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and pool access.",
     "commute": {
@@ -508,8 +511,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.bensonhillsapartments.com/",
     "galleryUrl": "https://www.bensonhillsapartments.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423330/3_423330_1981026.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423336/3_423336_1969356.jpg"
     ],
     "desc": "Spacious north East Lansing apartment home. Features 2 covered carport spaces, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and private patio.",
     "commute": {
@@ -546,8 +549,9 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://25eastliving.com/",
     "galleryUrl": "https://25eastliving.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+      "https://live25east.com/wp-content/uploads/sites/79/2025/12/Copy-of-Copy-of-13_2501_Abbot_Rd_East_Lansing_MI_48823_USA-Exterior-208091_HDR-Amenities-74.jpg",
+      "https://live25east.com/wp-content/uploads/sites/79/2025/12/Copy-of-07_2501_Abbot_Rd_East_Lansing_MI_48823_USA-Exterior-208091_SEP-Amenities-07.jpg",
+      "https://live25east.com/wp-content/uploads/sites/79/2025/12/Copy-of-Copy-of-05_2501_Abbot_Rd_East_Lansing_MI_48823_USA-Living_room-208091_HDR-Unit_1015-08.jpg"
     ],
     "desc": "Conveniently situated right along Abbot Road. Features 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, private bark park, and pool.",
     "commute": {
@@ -584,8 +588,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://lodgesofeastlansing.com/",
     "galleryUrl": "https://lodgesofeastlansing.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Lodge-inspired master plan community. Offers attached 2-car garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, and outdoor fire pit lounge.",
     "commute": {
@@ -622,8 +626,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/burnt-tree",
     "galleryUrl": "https://www.dtnmgt.com/properties/burnt-tree#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Nestled off Burcham Dr near Patriarche Park. Offers 2 covered carport spaces, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and large walk-in closets.",
     "commute": {
@@ -660,8 +664,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://primehousinggroup.com/albert-meadow",
     "galleryUrl": "https://primehousinggroup.com/albert-meadow#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Charming boutique community near East Lansing library. Includes 2 covered parking spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, and balcony.",
     "commute": {
@@ -698,8 +702,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.trapperscove.com/",
     "galleryUrl": "https://www.trapperscove.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Townhome with private patio and lake views. Features 2 covered carport spaces, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and lighted tennis courts.",
     "commute": {
@@ -736,8 +740,9 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.clubmeridianapartments.com/",
     "galleryUrl": "https://www.clubmeridianapartments.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80"
+      "https://liveatclubmeridian.com/assets/images/cache/Heritage-Ave-Okemos-MI_4425_20250724-002-a1ffd80e9a901e95d673e00aa7ede249.jpg",
+      "https://liveatclubmeridian.com/assets/images/cache/81262_16_hdp_clubmeridian_int_flpn1_kit2-4203b3ccb54f5806f9ff053983997d47.jpg",
+      "https://liveatclubmeridian.com/assets/images/cache/ClubMeridian_4425HeritageAve_II-8776529_PHO_122-11d311facbf6c671841da7047f0ac752.jpg"
     ],
     "desc": "Upscale Okemos community with resort amenities. Includes attached 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, swimming pool, and private patio.",
     "commute": {
@@ -774,8 +779,9 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.clubmeridianapartments.com/",
     "galleryUrl": "https://www.clubmeridianapartments.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      "https://liveatclubmeridian.com/assets/images/cache/Heritage-Ave-Okemos-MI_4425_20250724-002-a1ffd80e9a901e95d673e00aa7ede249.jpg",
+      "https://liveatclubmeridian.com/assets/images/cache/81262_16_hdp_clubmeridian_int_flpn1_kit2-4203b3ccb54f5806f9ff053983997d47.jpg",
+      "https://liveatclubmeridian.com/assets/images/cache/ClubMeridian_4425HeritageAve_II-8776529_PHO_122-11d311facbf6c671841da7047f0ac752.jpg"
     ],
     "desc": "Spacious 3-bedroom luxury residence. Features attached 2-car garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, gourmet kitchen, and private deck.",
     "commute": {
@@ -812,8 +818,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.reserveatokemos.com/",
     "galleryUrl": "https://www.reserveatokemos.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      "https://static.wixstatic.com/media/a13491_231c0039047941919dda130962ec55c3~mv2.jpg/v1/fill/w_1200,h_800,al_c/a13491_231c0039047941919dda130962ec55c3~mv2.jpg",
+      "https://static.wixstatic.com/media/a13491_531183c73e29454882eae5f4977df52df000.jpg/v1/fill/w_1200,h_800,al_c/a13491_531183c73e29454882eae5f4977df52df000.jpg"
     ],
     "desc": "Luxury multi-story townhome in prestigious Okemos location. Offers attached 2-car garage, pet friendly welcoming 2 small dogs, private patio, in-unit washer/dryer, central air conditioning, and clubhouse pool.",
     "commute": {
@@ -850,8 +856,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.reserveatokemos.com/",
     "galleryUrl": "https://www.reserveatokemos.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+      "https://static.wixstatic.com/media/a13491_231c0039047941919dda130962ec55c3~mv2.jpg/v1/fill/w_1200,h_800,al_c/a13491_231c0039047941919dda130962ec55c3~mv2.jpg",
+      "https://static.wixstatic.com/media/a13491_531183c73e29454882eae5f4977df52df000.jpg/v1/fill/w_1200,h_800,al_c/a13491_531183c73e29454882eae5f4977df52df000.jpg"
     ],
     "desc": "Two-bedroom townhome with high-end designer finishes. Features attached 2-car garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and fitness center.",
     "commute": {
@@ -888,8 +894,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://elevationokemos.com/",
     "galleryUrl": "https://elevationokemos.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+      "https://lh3.googleusercontent.com/lHD7POQlx4bz51vHOILpoffHnFHypK04EjxdC0nH2Rm6DInTnEqmEcwfz-UcqprR4YMqS-e0QFkmrOKz06DxyhzJgA365u0FR-wbxSa-=s1600",
+      "https://lh3.googleusercontent.com/qV1F6b9hAflGg1jlBk9LvyenI80n8EDzjAiwPrZOLPmW1dOuUvCc2XZcvx5foFV50Y30qBe0ddwkQ09VeleBHs7XXiWgkTESHigyNtM=s1200"
     ],
     "desc": "Ultra-modern construction at Central Park in Okemos. Includes 2 covered parking spaces in private garage structure, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and EV chargers.",
     "commute": {
@@ -926,8 +932,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://elevationokemos.com/",
     "galleryUrl": "https://elevationokemos.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      "https://lh3.googleusercontent.com/lHD7POQlx4bz51vHOILpoffHnFHypK04EjxdC0nH2Rm6DInTnEqmEcwfz-UcqprR4YMqS-e0QFkmrOKz06DxyhzJgA365u0FR-wbxSa-=s1600",
+      "https://lh3.googleusercontent.com/qV1F6b9hAflGg1jlBk9LvyenI80n8EDzjAiwPrZOLPmW1dOuUvCc2XZcvx5foFV50Y30qBe0ddwkQ09VeleBHs7XXiWgkTESHigyNtM=s1200"
     ],
     "desc": "Premier 2-bedroom executive layout at Elevation. Offers 2 covered parking spaces in secure garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, pet spa, and golf simulator.",
     "commute": {
@@ -964,8 +970,9 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/timberlake",
     "galleryUrl": "https://www.dtnmgt.com/properties/timberlake#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://liveatclubmeridian.com/assets/images/cache/Heritage-Ave-Okemos-MI_4425_20250724-002-a1ffd80e9a901e95d673e00aa7ede249.jpg",
+      "https://liveatclubmeridian.com/assets/images/cache/81262_16_hdp_clubmeridian_int_flpn1_kit2-4203b3ccb54f5806f9ff053983997d47.jpg",
+      "https://liveatclubmeridian.com/assets/images/cache/ClubMeridian_4425HeritageAve_II-8776529_PHO_122-11d311facbf6c671841da7047f0ac752.jpg"
     ],
     "desc": "Scenic apartment community overlooking protected wetlands. Includes 2 covered carport spaces, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and pool.",
     "commute": {
@@ -1002,8 +1009,9 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.theoaksokemos.com/",
     "galleryUrl": "https://www.theoaksokemos.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      "https://liveatclubmeridian.com/assets/images/cache/Heritage-Ave-Okemos-MI_4425_20250724-002-a1ffd80e9a901e95d673e00aa7ede249.jpg",
+      "https://liveatclubmeridian.com/assets/images/cache/81262_16_hdp_clubmeridian_int_flpn1_kit2-4203b3ccb54f5806f9ff053983997d47.jpg",
+      "https://liveatclubmeridian.com/assets/images/cache/ClubMeridian_4425HeritageAve_II-8776529_PHO_122-11d311facbf6c671841da7047f0ac752.jpg"
     ],
     "desc": "Upscale residential community with direct trail connectivity. Includes 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and private balcony.",
     "commute": {
@@ -1040,8 +1048,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.briarwoodokemos.com/",
     "galleryUrl": "https://www.briarwoodokemos.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423330/3_423330_1981026.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423336/3_423336_1969356.jpg"
     ],
     "desc": "Quiet condominium neighborhood in top Okemos school district. Features private 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and fireplace.",
     "commute": {
@@ -1078,8 +1086,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/berrytree",
     "galleryUrl": "https://www.dtnmgt.com/properties/berrytree#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Conveniently located at Okemos Rd and Grand River. Features 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, tennis courts, and pool.",
     "commute": {
@@ -1116,8 +1124,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/nemoke-trails",
     "galleryUrl": "https://www.dtnmgt.com/properties/nemoke-trails#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423349/3_423349_2019699.jpg"
     ],
     "desc": "Wooded Haslett lakeside community near Lake Lansing parks. Features 2-car covered carports, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and private deck.",
     "commute": {
@@ -1154,8 +1162,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/nemoke-trails",
     "galleryUrl": "https://www.dtnmgt.com/properties/nemoke-trails#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423349/3_423349_2019699.jpg"
     ],
     "desc": "Cozy 1-bedroom retreat with scenic nature view. Features 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and fitness room.",
     "commute": {
@@ -1192,8 +1200,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.hasletthomes.com/woodside-meadows",
     "galleryUrl": "https://www.hasletthomes.com/woodside-meadows#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423349/3_423349_2019699.jpg"
     ],
     "desc": "Private condominium setting close to Lake Lansing beach. Includes private 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and deck.",
     "commute": {
@@ -1230,8 +1238,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.lakelansingapts.com/",
     "galleryUrl": "https://www.lakelansingapts.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423349/3_423349_2019699.jpg"
     ],
     "desc": "Steps from Lake Lansing South Park and boat launch. Offers 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and community garden.",
     "commute": {
@@ -1268,8 +1276,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://greenviewtownhomes.com/",
     "galleryUrl": "https://greenviewtownhomes.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Two-story luxury townhome with attached 2-car garage. Pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, granite island, and private patio.",
     "commute": {
@@ -1306,8 +1314,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/haslett-arms",
     "galleryUrl": "https://www.dtnmgt.com/properties/haslett-arms#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Peaceful community in Haslett school district. Features 2 covered carport spaces, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and large storage rooms.",
     "commute": {
@@ -1344,8 +1352,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://gillespie-group.com/properties/stadium-district/",
     "galleryUrl": "https://gillespie-group.com/properties/stadium-district/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765400011/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/stadium_kitchen_3_ayl44i.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765470793/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/IMG_4395_1_copy_yshdz7.jpg"
     ],
     "desc": "Premier urban living overlooking Jackson Field ballpark. Includes 2 covered parking spaces in attached garage structure, pet friendly welcoming 2 small dogs with dog wash station, in-unit washer and dryer, central A/C, and rooftop patio.",
     "commute": {
@@ -1382,8 +1390,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://gillespie-group.com/properties/stadium-district/",
     "galleryUrl": "https://gillespie-group.com/properties/stadium-district/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765400011/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/stadium_kitchen_3_ayl44i.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765470793/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/IMG_4395_1_copy_yshdz7.jpg"
     ],
     "desc": "Modern industrial loft with soaring ceilings and downtown views. Offers 2 covered parking spaces in attached garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, and central air conditioning.",
     "commute": {
@@ -1420,8 +1428,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://gillespie-group.com/properties/prudden-wheel-lofts/",
     "galleryUrl": "https://gillespie-group.com/properties/prudden-wheel-lofts/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1703694332/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/84281282_pe33gi.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765400011/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/stadium_kitchen_3_ayl44i.jpg"
     ],
     "desc": "Historic wheel factory converted into high-ceiling timber lofts. Features heated garage parking for 2 cars, pet friendly welcoming 2 small dogs with dedicated dog run, in-unit washer and dryer, central A/C, and fitness center.",
     "commute": {
@@ -1458,8 +1466,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://gillespie-group.com/properties/prudden-wheel-lofts/",
     "galleryUrl": "https://gillespie-group.com/properties/prudden-wheel-lofts/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1703694332/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/84281282_pe33gi.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765400011/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/stadium_kitchen_3_ayl44i.jpg"
     ],
     "desc": "Exposed brick timber loft with polished concrete floors. Includes heated garage parking for 2 cars, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, and central air conditioning.",
     "commute": {
@@ -1496,8 +1504,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://metroplacelansing.com/",
     "galleryUrl": "https://metroplacelansing.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1703694332/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/84281282_pe33gi.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765470793/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/IMG_4395_1_copy_yshdz7.jpg"
     ],
     "desc": "In the heart of downtown Lansing steps from the Capitol building. Features 2 reserved covered parking stalls in connected structure, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and resident lounge.",
     "commute": {
@@ -1534,8 +1542,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://gillespie-group.com/properties/outfield-lofts/",
     "galleryUrl": "https://gillespie-group.com/properties/outfield-lofts/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765400011/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/stadium_kitchen_3_ayl44i.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765470793/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/IMG_4395_1_copy_yshdz7.jpg"
     ],
     "desc": "Panoramic views of the minor league ballpark outfield. Includes 2 covered parking spaces in attached garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, and clubhouse.",
     "commute": {
@@ -1572,8 +1580,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://motorwheellofts.com/",
     "galleryUrl": "https://motorwheellofts.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1703694332/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/84281282_pe33gi.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765400011/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/stadium_kitchen_3_ayl44i.jpg"
     ],
     "desc": "Spectacular landmark building with massive 18-foot ceilings. Features private 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and direct park access.",
     "commute": {
@@ -1610,8 +1618,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://liveskyvue.com/",
     "galleryUrl": "https://liveskyvue.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://live25east.com/wp-content/uploads/sites/79/2025/12/Copy-of-Copy-of-13_2501_Abbot_Rd_East_Lansing_MI_48823_USA-Exterior-208091_HDR-Amenities-74.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765400011/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/stadium_kitchen_3_ayl44i.jpg"
     ],
     "desc": "Convenient corridor linking East Lansing and Lansing along Michigan Ave. Includes 2 covered parking spaces in parking garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, and elevated outdoor terrace.",
     "commute": {
@@ -1648,8 +1656,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://eyde.com/properties/capitol-view",
     "galleryUrl": "https://eyde.com/properties/capitol-view#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1703694332/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/84281282_pe33gi.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765470793/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/IMG_4395_1_copy_yshdz7.jpg"
     ],
     "desc": "Direct views of the Michigan State Capitol dome. Features 2 covered parking spaces in attached garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and fitness studio.",
     "commute": {
@@ -1686,8 +1694,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://eyde.com/properties/knapps-centre",
     "galleryUrl": "https://eyde.com/properties/knapps-centre#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1703694332/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/84281282_pe33gi.jpg",
+      "https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_900,w_800/v1765470793/g5/g5-c-5wn6ey1lz-gillespie-group/g5-cl-1n2fs5xtce-gillespie-group-lansing-mi/uploads/IMG_4395_1_copy_yshdz7.jpg"
     ],
     "desc": "Art Deco historic landmark completely transformed into premier downtown residences. Features 2 reserved covered parking stalls, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, and atrium.",
     "commute": {
@@ -1724,8 +1732,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/autumn-ridge",
     "galleryUrl": "https://www.dtnmgt.com/properties/autumn-ridge#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/2/89643/stone-falls-of-ada-036.jpg"
     ],
     "desc": "Top-rated DeWitt school district community. Features attached 2-car garage, pet friendly welcoming up to 2 dogs, private balcony, in-unit washer and dryer, central air conditioning, and community walking trail access.",
     "commute": {
@@ -1762,8 +1770,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/autumn-ridge",
     "galleryUrl": "https://www.dtnmgt.com/properties/autumn-ridge#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/2/89643/stone-falls-of-ada-036.jpg"
     ],
     "desc": "Expansive 3-bedroom residence with private wooded lawn. Offers attached 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and finished basement.",
     "commute": {
@@ -1800,8 +1808,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.prairiecreekdewitt.com/",
     "galleryUrl": "https://www.prairiecreekdewitt.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Scenic suburban enclave in DeWitt township. Features 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and outdoor swimming pool.",
     "commute": {
@@ -1838,8 +1846,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://dewittriversedge.com/",
     "galleryUrl": "https://dewittriversedge.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Charming townhome right along the Looking Glass River. Features attached 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and stone patio.",
     "commute": {
@@ -1876,8 +1884,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.edwardrose.com/communities/georgetown/",
     "galleryUrl": "https://www.edwardrose.com/communities/georgetown/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Tranquil South Lansing setting in Delhi Township. Offers attached 2-car garage, pet friendly welcoming 2 small dogs, private patio, in-unit washer/dryer, central air conditioning, and lush landscaping.",
     "commute": {
@@ -1914,8 +1922,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.edwardrose.com/communities/georgetown/",
     "galleryUrl": "https://www.edwardrose.com/communities/georgetown/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Three-bedroom family townhome with direct backyard lawn. Features attached 2-car garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and large storage rooms.",
     "commute": {
@@ -1952,8 +1960,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.aspenlakesapts.com/",
     "galleryUrl": "https://www.aspenlakesapts.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Private gated lakefront community in Holt. Features private 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, swimming pool, and lake trails.",
     "commute": {
@@ -1990,8 +1998,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://delhitownhomes.com/",
     "galleryUrl": "https://delhitownhomes.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423362/06-07-2012_oakhill_duplex_exterior_1.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Executive townhomes along Aurelius corridor. Includes attached 2-car garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and private lawn.",
     "commute": {
@@ -2028,8 +2036,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/river-walk",
     "galleryUrl": "https://www.dtnmgt.com/properties/river-walk#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/2/89643/stone-falls-of-ada-036.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423380/trowbridgelofts_bedroom_2015_011.jpg"
     ],
     "desc": "Picturesque Grand Ledge setting along the Grand River bluffs. Features attached 2-car garage, pet friendly welcoming 2 small dogs, private balcony, in-unit washer/dryer, central air conditioning, and open kitchen.",
     "commute": {
@@ -2066,8 +2074,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://www.dtnmgt.com/properties/river-walk",
     "galleryUrl": "https://www.dtnmgt.com/properties/river-walk#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/2/89643/stone-falls-of-ada-036.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423380/trowbridgelofts_bedroom_2015_011.jpg"
     ],
     "desc": "Luxury 3-bedroom townhome with river bluff views. Features attached 2-car garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and large deck.",
     "commute": {
@@ -2104,8 +2112,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://sundancewest.com/",
     "galleryUrl": "https://sundancewest.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "West Lansing community near Delta Township commercial district. Includes attached 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and pool.",
     "commute": {
@@ -2142,8 +2150,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://canal2west.com/",
     "galleryUrl": "https://canal2west.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Direct access to I-496 and Saginaw Hwy. Offers 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central air conditioning, and clubhouse.",
     "commute": {
@@ -2180,8 +2188,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://deltarivertownhomes.com/",
     "galleryUrl": "https://deltarivertownhomes.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Scenic river corridor townhome in Delta Township. Includes private 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central A/C, and large yard.",
     "commute": {
@@ -2218,8 +2226,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://raynerponds.com/",
     "galleryUrl": "https://raynerponds.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Picturesque Ingham County seat location with direct pond frontage. Features attached 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and deck.",
     "commute": {
@@ -2256,8 +2264,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://raynerponds.com/",
     "galleryUrl": "https://raynerponds.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Spacious three-bedroom townhome with luxury finishes. Offers attached 2-car garage, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and water views.",
     "commute": {
@@ -2294,8 +2302,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://jeffersonmanormason.com/",
     "galleryUrl": "https://jeffersonmanormason.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423330/3_423330_1981026.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423336/3_423336_1969356.jpg"
     ],
     "desc": "Quiet historic Mason neighborhood setting. Features private 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and garden patio.",
     "commute": {
@@ -2332,8 +2340,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://parklakebath.com/",
     "galleryUrl": "https://parklakebath.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Country tranquility minutes from East Lansing and Hawk Hollow golf courses. Features attached 2-car garage, pet friendly welcoming 2 small dogs, in-unit washer and dryer, central air conditioning, and deck.",
     "commute": {
@@ -2370,8 +2378,8 @@ export function getLansingLuxuryLiveListings(): Listing[] {
     "url": "https://rosewoodbath.com/",
     "galleryUrl": "https://rosewoodbath.com/#gallery",
     "photos": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423370/3_423370_2333153.jpg",
+      "https://resource.rentcafe.com/image/upload/q_auto,f_auto,w_1200,h_800,c_limit/s3/3/423331/beechwood_livingroom_2014_7.jpg"
     ],
     "desc": "Peaceful community right off Webster Rd in Bath Township. Offers 2 covered carport spaces, pet friendly welcoming up to 2 dogs, in-unit washer and dryer, central A/C, and large lawn.",
     "commute": {

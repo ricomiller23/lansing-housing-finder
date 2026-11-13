@@ -8,6 +8,7 @@ import { Navbar } from '@/components/Navbar';
 import { OutreachHelperModal } from '@/components/OutreachHelperModal';
 import { CostRealityModal } from '@/components/CostRealityModal';
 import { RouteModal } from '@/components/RouteModal';
+import { PhotoGalleryModal } from '@/components/PhotoGalleryModal';
 import { WORK_LOCATION, getGoogleMapsRouteUrl } from '@/lib/commute/routes';
 import {
   ArrowLeft,
@@ -37,6 +38,7 @@ export default function ListingDetailPage({
   const [isOutreachOpen, setIsOutreachOpen] = useState(false);
   const [isCostOpen, setIsCostOpen] = useState(false);
   const [isRouteOpen, setIsRouteOpen] = useState(false);
+  const [isPhotoModalOpen, setIsPhotoModalOpen] = useState(false);
 
   const { data, isLoading } = useQuery({
     queryKey: ['listing-detail', id],
@@ -87,12 +89,17 @@ export default function ListingDetailPage({
 
         {/* Gallery */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
-          <div className="relative md:col-span-3 aspect-16/10 overflow-hidden rounded-2xl bg-stone-100 dark:bg-stone-850">
+          <div className="relative md:col-span-3 aspect-16/10 overflow-hidden rounded-2xl bg-stone-100 dark:bg-stone-850 cursor-pointer group" onClick={() => setIsPhotoModalOpen(true)}>
             <img
               src={listing.photos[activePhoto] || 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80'}
               alt={listing.communityName || listing.address.line1}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-102"
             />
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors flex items-center justify-center pointer-events-none">
+              <span className="opacity-0 group-hover:opacity-100 transition-opacity rounded-full bg-stone-900/80 px-4 py-2 text-xs font-bold text-white backdrop-blur-md">
+                Click to expand photos
+              </span>
+            </div>
             <a
               href={listing.gallery_url || listing.source_url || listing.url}
               target="_blank"
@@ -358,6 +365,7 @@ export default function ListingDetailPage({
       <RouteModal listing={listing} onClose={() => setIsRouteOpen(false)} />
       <OutreachHelperModal listing={listing} onClose={() => setIsOutreachOpen(false)} />
       <CostRealityModal listing={listing} onClose={() => setIsCostOpen(false)} />
+      <PhotoGalleryModal listing={listing || null} initialIndex={activePhoto} isOpen={isPhotoModalOpen} onClose={() => setIsPhotoModalOpen(false)} />
     </div>
   );
 }

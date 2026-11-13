@@ -24,6 +24,7 @@ interface TableViewProps {
   onToggleCompare: (id: string) => void;
   onOpenOutreach: (listing: Listing) => void;
   onOpenRoute?: (listing: Listing) => void;
+  onOpenPhotos?: (listing: Listing, index?: number) => void;
 }
 
 export const TableView: React.FC<TableViewProps> = ({
@@ -34,6 +35,7 @@ export const TableView: React.FC<TableViewProps> = ({
   onToggleCompare,
   onOpenOutreach,
   onOpenRoute,
+  onOpenPhotos,
 }) => {
   return (
     <div className="w-full overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-xs dark:border-stone-800 dark:bg-stone-900">
@@ -74,24 +76,34 @@ export const TableView: React.FC<TableViewProps> = ({
                     {propertyLabel}
                   </Link>
                   <p className="text-[11px] text-stone-500">
-                    {item.address.line1}, {item.address.city}, CA {item.address.zip}
+                    {item.address.line1}, {item.address.city}, {item.address.state || 'MI'} {item.address.zip}
                   </p>
                   <span className="text-[10px] text-stone-400">
                     {item.operator || 'Private Landlord'}
                   </span>
                 </td>
                 <td className="px-3 py-3">
-                  <a
-                    href={galleryUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex min-h-9 items-center space-x-1 rounded-lg bg-teal-800 px-2.5 py-1.5 text-[11px] font-bold text-white shadow-xs hover:bg-teal-700 transition whitespace-nowrap"
-                  >
-                    <Images className="h-3 w-3 text-teal-200 shrink-0" />
-                    <span>Website & Photos</span>
-                    <span className="sr-only"> for {propertyLabel}</span>
-                    <ExternalLink className="h-3 w-3 text-teal-200 shrink-0" />
-                  </a>
+                  <div className="flex items-center space-x-1.5 whitespace-nowrap">
+                    <button
+                      type="button"
+                      onClick={() => onOpenPhotos && onOpenPhotos(item, 0)}
+                      className="inline-flex min-h-9 items-center space-x-1 rounded-lg bg-teal-800 px-2.5 py-1.5 text-[11px] font-bold text-white shadow-xs hover:bg-teal-700 transition"
+                      title="View high-resolution photo gallery"
+                    >
+                      <Images className="h-3 w-3 text-teal-200 shrink-0" />
+                      <span>Photos ({Math.max(1, item.photos.length)})</span>
+                    </button>
+                    <a
+                      href={galleryUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex min-h-9 items-center justify-center rounded-lg border border-stone-200 bg-white px-2 py-1.5 text-[11px] font-medium text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-300"
+                      title="Visit official property portal"
+                    >
+                      <ExternalLink className="h-3 w-3 text-stone-500 dark:text-stone-400" />
+                      <span className="sr-only">Visit official website for {propertyLabel}</span>
+                    </a>
+                  </div>
                 </td>
                 <td className="px-3 py-3 font-mono font-bold text-stone-900 dark:text-white">
                   ${item.price.toLocaleString()}
