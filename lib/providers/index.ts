@@ -42,6 +42,9 @@ export function normalizeCityAlias(input: string): string {
   if (cleaned === 'mason' || cleaned === '48854') {
     return 'Mason';
   }
+  if (cleaned === 'bath' || cleaned === 'bath township' || cleaned === '48808') {
+    return 'Bath';
+  }
   return input.trim();
 }
 

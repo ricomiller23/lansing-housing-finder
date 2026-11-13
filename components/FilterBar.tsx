@@ -36,6 +36,8 @@ const REGIONAL_CITIES = [
   { id: 'DeWitt', label: 'DeWitt (14-18m)' },
   { id: 'Holt', label: 'Holt (14-18m)' },
   { id: 'Grand Ledge', label: 'Grand Ledge (18-22m)' },
+  { id: 'Mason', label: 'Mason (16-20m)' },
+  { id: 'Bath', label: 'Bath Twp (12-15m)' },
 ];
 
 const QUICK_SEARCH_SUGGESTIONS = [
@@ -328,14 +330,15 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 onChange={(e) => update({ maxPrice: parseInt(e.target.value, 10) })}
                 className="bg-transparent font-bold text-stone-800 dark:text-stone-200 focus:outline-hidden cursor-pointer"
               >
+                <option value="1500">$1,500/mo</option>
+                <option value="1800">$1,800/mo</option>
+                <option value="2200">$2,200/mo</option>
+                <option value="2600">$2,600/mo</option>
                 <option value="3000">$3,000/mo</option>
                 <option value="3500">$3,500/mo</option>
                 <option value="4500">$4,500/mo</option>
-                <option value="5500">$5,500/mo</option>
-                <option value="7000">$7,000/mo</option>
-                <option value="8500">$8,500/mo</option>
-                <option value="10000">$10,000/mo</option>
-                <option value="12000">$12,000/mo</option>
+                <option value="6000">$6,000/mo</option>
+                <option value="10000">$10,000/mo (Any)</option>
               </select>
             </div>
 
@@ -646,9 +649,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               <input
                 id="mobile-max-rent"
                 type="range"
-                min="2250"
+                min="1000"
                 max="12000"
-                step="250"
+                step="100"
                 value={filters.maxPrice || 10000}
                 onChange={(e) => update({ maxPrice: parseInt(e.target.value, 10) })}
                 className="h-2 w-full accent-teal-700 cursor-pointer"

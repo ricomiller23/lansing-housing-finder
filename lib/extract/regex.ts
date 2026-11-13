@@ -34,9 +34,12 @@ export function extractFromText(text: string | undefined): ExtractionResult {
   let coveredSpaces: number | undefined = undefined;
   let parkingSnippet: string | undefined = undefined;
 
-  const garage2Match = text.match(/(?:2|two)[\s-]car(?:\s+attached|\s+detached)?\s+(?:garage|carport|covered\s+parking)/i) ||
+  const garage2Match = text.match(/(?:2|two)[\s-]car(?:\s+attached|\s+detached|\s+private|\s+covered)?\s+(?:garage|carports?|covered\s+parking|spaces?|stalls?)/i) ||
+                       text.match(/(?:attached|detached|private)?\s*(?:2|two)[\s-]car\s+(?:garage|carport)/i) ||
+                       text.match(/(?:heated|indoor|underground|covered)?\s*garage\s+(?:parking\s+)?for\s+(?:2|two)\s+cars?/i) ||
                        text.match(/(?:garage|covered\s+parking|carport)\s+(?:for\s+)?(?:2|two)\s+cars?/i) ||
-                       text.match(/(?:2|two)\s+(?:assigned\s+)?covered\s+spaces?/i);
+                       text.match(/(?:2|two)\s+(?:assigned|reserved|covered|indoor|heated|parking|\s+)*(?:spaces?|stalls?|spots?|carports?|garage)/i) ||
+                       text.match(/2\s+parking\s+spaces\s+in\s+garage/i);
   
   const garage1Match = text.match(/(?:1|one)[\s-]car\s+(?:garage|carport)/i) ||
                        text.match(/(?:single|1)\s+car\s+garage/i);
@@ -82,7 +85,10 @@ export function extractFromText(text: string | undefined): ExtractionResult {
   let petSnippet: string | undefined = undefined;
 
   const noPetsMatch = text.match(/no\s+pets?(?!\s*(?:deposit|rent|fee))|no\s+dogs?(?!\s*(?:deposit|rent|fee))/i);
-  const twoPetsMatch = text.match(/(?:up\s+to\s+)?(?:2|two)\s+(?:pets?|dogs?)/i);
+  const twoPetsMatch = text.match(/(?:up\s+to\s+)?(?:2|two)\s+(?:pets?|dogs?|small\s+dogs?)/i) ||
+                       text.match(/(?:welcomes?|allows?|permits?|friendly\s+welcoming)\s+(?:up\s+to\s+)?(?:2|two)\s+(?:dogs?|pets?|small\s+dogs?)/i) ||
+                       text.match(/pet[\s-]friendly\s*\((?:up\s+to\s+)?(?:2|two)\s+(?:dogs?|pets?)\)/i) ||
+                       text.match(/(?:2|two)\s+pets\s+maximum/i);
   const weightMatch = text.match(/(?:under|max|limit|up to)\s*(\d{2,3})\s*(?:lbs|pounds)/i);
   const dogsAllowedMatch = text.match(/dog(?:s)?\s+(?:allowed|welcome|friendly|ok)/i) || text.match(/pets?\s+(?:allowed|welcome|friendly|ok)/i);
 

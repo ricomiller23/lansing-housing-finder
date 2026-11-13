@@ -57,13 +57,13 @@ function SearchPageContent() {
 
     return {
       maxPrice: searchParams.get('maxPrice') ? parseInt(searchParams.get('maxPrice')!, 10) : 10000,
-      minPrice: searchParams.get('minPrice') ? parseInt(searchParams.get('minPrice')!, 10) : 2000,
+      minPrice: searchParams.get('minPrice') ? parseInt(searchParams.get('minPrice')!, 10) : undefined,
       maxDriveMinutes: searchParams.get('maxDriveMinutes') ? parseInt(searchParams.get('maxDriveMinutes')!, 10) : 40,
       minBeds: searchParams.get('minBeds') ? parseInt(searchParams.get('minBeds')!, 10) : 1,
       minBaths: searchParams.get('minBaths') ? parseFloat(searchParams.get('minBaths')!) : 1,
       propertyTypes: searchParams.get('propertyTypes')
         ? (searchParams.get('propertyTypes')!.split(',') as any)
-        : ['apartment'],
+        : ['apartment', 'townhome', 'condo', 'single_family'],
       coveredParkingMode: (searchParams.get('coveredParkingMode') as any) || 'lenient',
       twoDogsMode: (searchParams.get('twoDogsMode') as any) || 'lenient',
       cities: initialCities,
